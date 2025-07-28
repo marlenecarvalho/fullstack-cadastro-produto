@@ -1,0 +1,21 @@
+GET http://localhost:3001/produto
+
+
+###
+POST http://localhost:3001/produto
+content-type: application/json
+
+{
+    "nome": "Notbook",
+    "descricao": "Notebook dell",
+    "preco": 2000.00
+}
+
+###
+PATCH http://localhost:3001/produto/1
+content-type: application/json
+
+{
+    "nome": "Notbook Dell aspiron"
+    
+}
